@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Calculator | CODSOFT</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculator-container">
+
+        <div class="calculator">
+
+            <!-- Header -->
+            <div class="calculator-header">
+                <div>
+                    <span class="mini-title">CODSOFT</span>
+                    <h1>Calculator</h1>
+                </div>
+
+                <div class="status-dot"></div>
+            </div>
+
+
+            <!-- Display -->
+            <div class="display">
+
+                <div id="previous-display" class="previous-display">
+                    0
+                </div>
+
+                <div id="current-display" class="current-display">
+                    0
+                </div>
+
+            </div>
+
+
+            <!-- Buttons -->
+            <div class="buttons">
+
+                <button class="function" data-action="clear">AC</button>
+                <button class="function" data-action="delete">DEL</button>
+                <button class="function" data-action="percentage">%</button>
+                <button class="operator" data-operation="/">÷</button>
+
+                <button data-number="7">7</button>
+                <button data-number="8">8</button>
+                <button data-number="9">9</button>
+                <button class="operator" data-operation="*">×</button>
+
+                <button data-number="4">4</button>
+                <button data-number="5">5</button>
+                <button data-number="6">6</button>
+                <button class="operator" data-operation="-">−</button>
+
+                <button data-number="1">1</button>
+                <button data-number="2">2</button>
+                <button data-number="3">3</button>
+                <button class="operator" data-operation="+">+</button>
+
+                <button class="zero" data-number="0">0</button>
+                <button data-number=".">.</button>
+                <button class="equals" data-action="calculate">=</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
